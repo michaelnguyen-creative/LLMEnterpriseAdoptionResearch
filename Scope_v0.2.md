@@ -236,7 +236,18 @@ This isn't just about using AI tools—it's about **building organizational capa
 
 ### Our Approach
 
-User Journey
+Questions we ask
+- Immediate: "Can we use AI for this specific task today?"
+- Practical: "How do we implement this safely?"
+- Scalable: "What's our systematic approach for new use cases?"
+
+Implementation-Focused Value
+- Developers get clear technical guidance
+- Security teams get specific control requirements
+- Business users get immediate use case clarity
+- Management gets risk-appropriate governance
+
+##### User Journey
 - Developer journey: "Can I use AI for X?" → "How do I implement safely?" → "What tools/patterns do I use?"
 - Business journey: "What can AI do for us?" → "What are the risks?" → "How do we get started?"
 
@@ -341,73 +352,67 @@ The tier progression reflects:
 </details>
 
 ##### Tier 1: Green Light Use Cases (Immediate Implementation)
-Characteristics:
 
-Public or anonymized data only
-Non-sensitive business operations
-Low regulatory impact
-Easily reversible outputs
+Characteristics:
+- Public or anonymized data only
+- Non-sensitive business operations
+- Low regulatory impact
+- Easily reversible outputs
 
 Examples:
-
-Public content summarization
-Open-source code review and documentation
-Marketing content generation
-General research and analysis
-Educational content development
+- Public content summarization
+- Open-source code review and documentation
+- Marketing content generation
+- General research and analysis
+- Educational content development
 
 Implementation Requirements:
-
-Standard API integration with basic authentication
-Rate limiting and cost controls
-Output quality validation
-Basic audit logging
+- Standard API integration with basic authentication
+- Rate limiting and cost controls
+- Output quality validation
+- Basic audit logging
 
 ##### Tier 2: Yellow Light Use Cases (Controlled Implementation)
-Characteristics:
 
+Characteristics:
 - Internal business data (non-PII)
 - Moderate sensitivity
 - Requires human oversight
 - Clear business value
 
 Examples:
-
-Internal document summarization
-Business process automation
-Non-customer-facing analysis
-Employee training content
-Code review for proprietary (non-critical) systems
+- Internal document summarization
+- Business process automation
+- Non-customer-facing analysis
+- Employee training content
+- Code review for proprietary (non-critical) systems
 
 Implementation Requirements:
-
-Enterprise API tiers with enhanced data protection
-Data preprocessing and anonymization
-Enhanced access controls and audit trails
-Output validation and human review workflows
-Incident response procedures
+- Enterprise API tiers with enhanced data protection
+- Data preprocessing and anonymization
+- Enhanced access controls and audit trails
+- Output validation and human review workflows
+- Incident response procedures
 
 ##### Tier 3: Red Light Use Cases (Prohibited or Requires Special Controls)
-Characteristics:
 
-Customer PII or sensitive personal data
-Financial or health information
-Trade secrets or competitive intelligence
-Regulatory compliance implications
+Characteristics:
+- Customer PII or sensitive personal data
+- Financial or health information
+- Trade secrets or competitive intelligence 
+- Regulatory compliance implications
 
 Examples:
-
-Customer support data analysis
-Financial document processing
-Medical record summarization
-Proprietary algorithm analysis
-Legal document review
+- Customer support data analysis
+- Financial document processing
+- Medical record summarization
+- Proprietary algorithm analysis, proprietary source code/IP
+- Legal document review / confidential business strategies
 
 Implementation Requirements:
-
-Self-managed LLM deployment only, OR
-Dedicated private cloud with contractual guarantees, OR
-Wait for enhanced privacy solutions
+- Self-managed LLM deployment only, OR
+- Dedicated private cloud with contractual guarantees, OR
+- Wait for enhanced privacy solutions
 
 ### Technical Implementation Framework
 
@@ -563,3 +568,10 @@ Mature AI integration capability
 Competitive advantage through safe AI adoption
 Strong foundation for emerging AI technologies
 Industry leadership in AI governance practices
+
+### Future Research
+
+1. LLM Service Offering Landscape
+- Understanding Service Tiers & Deployment Models (LLM-as-a-Service vs. Self-Managed)
+- Service Tier Classification (Consumer vs. Commercial) 
+2. Model Provider Privacy Assessment 
