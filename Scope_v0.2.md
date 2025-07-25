@@ -520,3 +520,5 @@ Long-term Benefits
 - Understanding Service Tiers & Deployment Models (LLM-as-a-Service vs. Self-Managed)
 - Service Tier Classification (Consumer vs. Commercial) 
 2. Model Provider Privacy Assessment
+- How do LLMaaS service providers handle our business data?
+- What are implications of using public LLMs on our enterprise data?
