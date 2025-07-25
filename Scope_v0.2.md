@@ -238,6 +238,8 @@ This isn't just about using AI tools—it's about **building organizational capa
 
 ### Our Approach
 
+Use Case → Technical Implementation
+
 ##### Perspectives
 - Developer: "Can I use AI for X?" → "How do I implement safely?" → "What tools/patterns do I use?"
 - Business: "What can AI do for us?" → "What are the risks?" → "How do we get started?"
@@ -318,7 +320,9 @@ Document 4: Technical Architecture Reference (10-15 pages)
 
 ### Deliverables
 
-Use Case → Technical Implementation
+- Use Case Risk Classification Framework
+- Technical Implementation Framework
+- Provider Selection Framework
 
 #### Use Case Risk Classification Framework
 
