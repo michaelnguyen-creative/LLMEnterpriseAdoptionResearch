@@ -238,7 +238,7 @@ This isn't just about using AI tools—it's about **building organizational capa
 
 ### 3. Our Approach
 
-Use Case → Technical Implementation
+> Use Case → Technical Implementation
 
 ##### Perspectives
 - Developer: "Can I use AI for X?" → "How do I implement safely?" → "What tools/patterns do I use?"
