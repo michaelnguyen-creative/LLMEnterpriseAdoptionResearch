@@ -1,11 +1,9 @@
 
 
-## Core Research Focus
+### Research Focus
 
 "How do we integrate public LLM APIs safely and productively into enterprise workflows?"
 - In other words, "How do we integrate LLM APIs to maximize business value while minimizing enterprise risks?"
-
-#### Business Case for Public LLM Integration
 
 <details>
 <summary><strong>Why Should We Integrate with Public LLMs</strong> - Complete stakeholder analysis and strategic justification</summary>
@@ -236,22 +234,17 @@ This isn't just about using AI tools—it's about **building organizational capa
 
 ### Our Approach
 
-Questions we ask
+##### Questions we ask
 - Immediate: "Can we use AI for this specific task today?"
 - Practical: "How do we implement this safely?"
 - Scalable: "What's our systematic approach for new use cases?"
 
-Implementation-Focused Value
-- Developers get clear technical guidance
-- Security teams get specific control requirements
-- Business users get immediate use case clarity
-- Management gets risk-appropriate governance
+##### Option A: User Journey-Driven
 
-##### User Journey
+User Journey
 - Developer journey: "Can I use AI for X?" → "How do I implement safely?" → "What tools/patterns do I use?"
 - Business journey: "What can AI do for us?" → "What are the risks?" → "How do we get started?"
 
-##### Option A: User Journey-Driven
 1. Use Case Decision Framework ("What Can We Do?")
    - Green/Yellow/Red classification
    - Quick decision tree for any use case
