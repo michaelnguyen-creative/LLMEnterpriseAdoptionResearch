@@ -322,6 +322,7 @@ Document 4: Technical Architecture Reference (10-15 pages)
 
 - Use Case Risk Classification Framework
 - Technical Implementation Framework
+- Practical Decision Framework
 - Provider Selection Framework
 
 #### A. Use Case Risk Classification Framework
