@@ -3,6 +3,7 @@
 ## Core Research Focus
 
 "How do we integrate public LLM APIs safely and productively into enterprise workflows?"
+- In other words, "How do we integrate LLM APIs to maximize business value while minimizing enterprise risks?"
 
 #### Business Case for Public LLM Integration
 
@@ -244,7 +245,9 @@ Research Report Structure
 5. Business Process Integration Patterns
 
 
-### Framework Structure: Use Case → Technical Implementation
+### Framework Structure
+
+Use Case → Technical Implementation
 
 #### Use Case Risk Classification Framework
 
