@@ -1,5 +1,5 @@
 
-### Research Goals
+### 1. Research Goals
 
 **Primary Goal:** Enable Safe AI Adoption
 
@@ -230,13 +230,13 @@ This isn't just about using AI tools—it's about **building organizational capa
 </details>
 
 
-### Research Questions
+### 2. Research Questions
 
 - "How do we safely process our enterprise data through LLM APIs?"
 - "What technical safeguards ensure enterprise-grade data security & privacy?"
 - "Which use cases can be implemented immediately vs. require additional controls?"
 
-### Our Approach
+### 3. Our Approach
 
 Use Case → Technical Implementation
 
@@ -318,7 +318,7 @@ Document 4: Technical Architecture Reference (10-15 pages)
 - Monitoring and compliance procedures
 - Troubleshooting and maintenance
 
-### Deliverables
+### 4. Deliverables
 
 - Use Case Risk Classification Framework
 - Technical Implementation Framework
@@ -493,7 +493,7 @@ Premium Requirements for Critical Use Cases:
 - Legal liability and indemnification
 - Regulatory compliance assistance
 
-### Expected Outcomes
+### 5. Expected Outcomes
 
 Immediate Benefits
 - Clear go/no-go decisions for specific use cases
@@ -513,7 +513,7 @@ Long-term Benefits
 - Strong foundation for emerging AI technologies
 - Industry leadership in AI governance practices
 
-### Future Research
+### 6. Future Research
 
 1. LLM Service Offering Landscape
 - Understanding Service Tiers & Deployment Models (LLM-as-a-Service vs. Self-Managed)
