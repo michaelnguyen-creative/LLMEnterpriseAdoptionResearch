@@ -1,5 +1,5 @@
 
-### Research Goals & Success Criteria
+### Research Goals
 
 **Primary Goal:** Enable Safe AI Adoption
 
