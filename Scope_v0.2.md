@@ -239,11 +239,11 @@ This isn't just about using AI tools—it's about **building organizational capa
 - Practical: "How do we implement this safely?"
 - Scalable: "What's our systematic approach for new use cases?"
 
-##### Option A: User Journey-Driven
+##### Perspectives
+- Developer: "Can I use AI for X?" → "How do I implement safely?" → "What tools/patterns do I use?"
+- Business: "What can AI do for us?" → "What are the risks?" → "How do we get started?"
 
-User Journey
-- Developer journey: "Can I use AI for X?" → "How do I implement safely?" → "What tools/patterns do I use?"
-- Business journey: "What can AI do for us?" → "What are the risks?" → "How do we get started?"
+##### Option A: User Journey-Driven
 
 1. Use Case Decision Framework ("What Can We Do?")
    - Green/Yellow/Red classification
