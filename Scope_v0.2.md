@@ -234,14 +234,10 @@ This isn't just about using AI tools—it's about **building organizational capa
 
 ### Our Approach
 
-##### Questions we ask
-- Immediate: "Can we use AI for this specific task today?"
-- Practical: "How do we implement this safely?"
-- Scalable: "What's our systematic approach for new use cases?"
-
 ##### Perspectives
 - Developer: "Can I use AI for X?" → "How do I implement safely?" → "What tools/patterns do I use?"
 - Business: "What can AI do for us?" → "What are the risks?" → "How do we get started?"
+- Integrated: "What's our systematic approach for new use cases?"
 
 ##### Option A: User Journey-Driven
 
