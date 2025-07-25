@@ -227,12 +227,13 @@ This isn't just about using AI tools—it's about **building organizational capa
 </details>
 
 
-Research Questions
+### Research Questions
+
 - "How do we safely process our enterprise data through LLM APIs?"
 - "What technical safeguards ensure enterprise-grade data security & privacy?"
 - "Which use cases can be implemented immediately vs. require additional controls?"
 
-Our Approach
+### Our Approach
 Use Case Analysis → Technical Implementation → Security Controls → Business Integration
 
 Research Report Structure
@@ -243,10 +244,26 @@ Research Report Structure
 5. Business Process Integration Patterns
 
 
-Framework Structure: Use Case → Technical Implementation
+### Framework Structure: Use Case → Technical Implementation
 
-Tier 1: Use Case Risk Classification
-Green Light Use Cases (Immediate Implementation)
+#### Use Case Risk Classification Framework
+
+Three-Tier Risk Model
+- Tier 1 (Green Light): Low risk, immediate implementation with standard controls
+- Tier 2 (Yellow Light): Medium risk, controlled implementation with enhanced safeguards
+- Tier 3 (Red Light): High risk, prohibited or requires special deployment models
+
+<details>
+<summary>Why This Three-Tier Structure?</summary>
+
+The tier progression reflects:
+- Data sensitivity escalation: Public → Internal → Sensitive/Regulated
+- Control complexity: Basic → Enhanced → Advanced/Custom
+- Risk tolerance: Acceptable → Managed → Requires special justification
+- Implementation timeline: Immediate → Controlled rollout → Long-term planning
+</details>
+
+##### Tier 1: Green Light Use Cases (Immediate Implementation)
 Characteristics:
 
 Public or anonymized data only
@@ -269,13 +286,13 @@ Rate limiting and cost controls
 Output quality validation
 Basic audit logging
 
-Yellow Light Use Cases (Controlled Implementation)
+##### Tier 2: Yellow Light Use Cases (Controlled Implementation)
 Characteristics:
 
-Internal business data (non-PII)
-Moderate sensitivity
-Requires human oversight
-Clear business value
+- Internal business data (non-PII)
+- Moderate sensitivity
+- Requires human oversight
+- Clear business value
 
 Examples:
 
@@ -293,7 +310,7 @@ Enhanced access controls and audit trails
 Output validation and human review workflows
 Incident response procedures
 
-Red Light Use Cases (Prohibited or Requires Special Controls)
+##### Tier 3: Red Light Use Cases (Prohibited or Requires Special Controls)
 Characteristics:
 
 Customer PII or sensitive personal data
@@ -314,3 +331,158 @@ Implementation Requirements:
 Self-managed LLM deployment only, OR
 Dedicated private cloud with contractual guarantees, OR
 Wait for enhanced privacy solutions
+
+### Technical Implementation Framework
+
+API Integration Security Patterns
+
+##### Pattern 1: Data Minimization Pipeline
+Enterprise Data → Data Classification → Anonymization → LLM API → Output Validation → Business Application
+Technical Requirements:
+
+Automated PII detection and removal
+Data classification tagging
+Anonymization/pseudonymization tools
+API request/response logging
+Output sanitization
+
+##### Pattern 2: Sandboxed Processing Environment
+Enterprise Network → DMZ Processing → API Gateway → LLM Provider → Response Filtering → Internal Network
+Technical Requirements:
+
+Network isolation and segmentation
+API gateway with request/response filtering
+Content scanning and validation
+Audit trail and monitoring
+Data loss prevention (DLP) controls
+
+##### Pattern 3: Hybrid Processing Model
+Sensitive Data → On-Premise Processing → Summary/Anonymized Output → Public LLM API → Enhanced Results
+Technical Requirements:
+
+Local preprocessing capabilities
+Secure data summarization
+API integration for enhancement only
+Results validation and correlation
+End-to-end audit trail
+
+### Practical Decision Framework
+Use Case Evaluation Workflow
+
+##### Step 1: Data Classification
+
+Data Input Assessment:
+├── Public Information → Green Light
+├── Internal Business Data → Classify Further
+│   ├── Non-Sensitive → Green Light
+│   ├── Moderate Sensitivity → Yellow Light
+│   └── High Sensitivity → Red Light
+└── Personal/Customer Data → Red Light
+
+##### Step 2: Business Context Analysis
+
+Business Impact Assessment:
+├── Experimental/Low Impact → Proceed with Standard Controls
+├── Production/Medium Impact → Enhanced Controls Required
+└── Mission-Critical/High Impact → Maximum Controls + Approval
+
+##### Step 3: Technical Implementation Selection
+
+Implementation Pattern Selection:
+├── Green Light + Standard Impact → Pattern 1 (Data Minimization)
+├── Yellow Light + Medium Impact → Pattern 2 (Sandboxed Processing)
+└── Red Light + High Impact → Pattern 3 (Hybrid/Self-Managed)
+
+### Provider Selection Framework
+
+Instead of comparing providers, evaluate capabilities:
+Minimum Requirements for ANY Provider:
+
+Enterprise API tier with contractual data protection
+SOC 2 Type II or equivalent certification
+GDPR compliance for EU data processing
+Data retention controls (≤ 90 days)
+Technical support and SLA availability
+
+Enhanced Requirements for Sensitive Use Cases:
+
+Dedicated infrastructure or logical isolation
+Custom data processing agreements
+Geographic data processing controls
+Enhanced audit and compliance reporting
+Incident response and breach notification
+
+Premium Requirements for Critical Use Cases:
+
+Private cloud or on-premise deployment
+Custom security controls and monitoring
+Professional services and dedicated support
+Legal liability and indemnification
+Regulatory compliance assistance
+
+### Living Implementation Guide
+Continuous Improvement Process
+Monthly Reviews:
+
+Use case implementation feedback
+Security control effectiveness
+Cost and performance optimization
+New provider capability assessment
+
+Quarterly Updates:
+
+Technical architecture refinements
+Use case guideline adjustments
+Provider requirement updates
+Market technology integration
+
+Annual Reassessment:
+
+Complete framework evaluation
+Strategic direction alignment
+Technology roadmap planning
+Compliance requirement updates
+
+Documentation Structure
+Core Implementation Guides (Updated Semi-Annually):
+
+API Integration Patterns and Standards
+Data Classification and Protection Procedures
+Technical Architecture Templates
+Security Control Implementation
+
+Dynamic Guidelines (Updated Quarterly):
+
+Approved Use Case Catalog
+Provider Capability Matrix
+Current Implementation Recommendations
+Cost and Performance Benchmarks
+
+Operational Procedures (Updated as Needed):
+
+Incident Response Playbooks
+Change Management Procedures
+Audit and Compliance Checklists
+User Training and Support Materials
+
+### Expected Outcomes
+Immediate Benefits (Month 1)
+
+Clear go/no-go decisions for specific use cases
+Standardized technical implementation patterns
+Risk-appropriate security controls
+Predictable integration timelines
+
+Medium-term Benefits (Month 3-6)
+
+Expanded use case enablement with controlled risk
+Proven technical architecture and procedures
+Strong governance and compliance posture
+Measurable productivity improvements
+
+Long-term Benefits (6+ Months)
+
+Mature AI integration capability
+Competitive advantage through safe AI adoption
+Strong foundation for emerging AI technologies
+Industry leadership in AI governance practices
