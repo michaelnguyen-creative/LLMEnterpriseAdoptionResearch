@@ -245,7 +245,7 @@ Use Case → Technical Implementation
 - Business: "What can AI do for us?" → "What are the risks?" → "How do we get started?"
 - Integrated: "What's our systematic approach for new use cases?"
 
-##### Option A: User Journey-Driven
+##### A. User Journey-Driven
 
 1. Use Case Decision Framework ("What Can We Do?")
    - Green/Yellow/Red classification
@@ -267,7 +267,7 @@ Use Case → Technical Implementation
    - Resource requirements
    - Timeline and milestones
 
-##### Option B: Implementation-First
+##### B. Implementation-First
 1. Quick Start Guide (Green Light Use Cases)
    - Immediate value opportunities
    - Step-by-step implementation
@@ -293,7 +293,7 @@ Use Case → Technical Implementation
    - Resource requirements
    - Ongoing management
 
-##### Option C: Audience-Specific Documents
+##### C. Audience-Specific Documents
 Document 1: Developer Implementation Guide (8-10 pages)
 - Use case classification and decision tree
 - Technical integration patterns
@@ -324,7 +324,7 @@ Document 4: Technical Architecture Reference (10-15 pages)
 - Technical Implementation Framework
 - Provider Selection Framework
 
-#### Use Case Risk Classification Framework
+#### A. Use Case Risk Classification Framework
 
 Three-Tier Risk Model
 - Tier 1 (Green Light): Low risk, immediate implementation with standard controls
@@ -404,7 +404,7 @@ Implementation Requirements:
 - Dedicated private cloud with contractual guarantees, OR
 - Wait for enhanced privacy solutions
 
-#### Technical Implementation Framework
+#### B. Technical Implementation Framework
 
 API Integration Security Patterns
 
@@ -438,7 +438,7 @@ Technical Requirements:
 - Results validation and correlation
 - End-to-end audit trail
 
-#### Practical Decision Framework
+#### C. Practical Decision Framework
 Use Case Evaluation Workflow
 
 ##### Step 1: Data Classification
@@ -470,7 +470,7 @@ Implementation Pattern Selection:
 └── Red Light + High Impact → Pattern 3 (Hybrid/Self-Managed)
 ```
 
-#### Provider Selection Framework
+#### D. Provider Selection Framework
 
 Minimum Requirements for ANY LLMaaS Provider:
 - Enterprise API tier with contractual data protection
