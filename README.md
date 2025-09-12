@@ -32,17 +32,19 @@ This repository contains a comprehensive analysis of Intelligent Document Proces
 ## Repository Structure
 
 ### Core Analysis Documents
-- `Enterprise_IDP_Framework_Complete_Scenarios.md` - Comprehensive framework with baseline + extended scenarios
-- `Enterprise_IDP_Framework_Fully_Cited.md` - Complete analysis with 63 inline source references
-- `Executive_Decision_Brief_Scenarios.md` - Executive summary for leadership decision-making
+- [Enterprise_IDP_Framework_Complete_Scenarios.md](https://michaelnguyen-creative.github.io/LLMEnterpriseAdoptionResearch/Enterprise_IDP_Framework_Complete_Scenarios.md) - Comprehensive framework with baseline + extended scenarios
+- [Enterprise_IDP_Framework_Fully_Cited.md](https://michaelnguyen-creative.github.io/LLMEnterpriseAdoptionResearch/Enterprise_IDP_Framework_Fully_Cited.md) - Complete analysis with 63 inline source references
+- [Executive_Decision_Brief_Scenarios.md](https://michaelnguyen-creative.github.io/LLMEnterpriseAdoptionResearch/Executive_Decision_Brief_Scenarios.md) - Executive summary for leadership decision-making
+- [Development_Deployment_Timeline_Analysis.md](https://michaelnguyen-creative.github.io/LLMEnterpriseAdoptionResearch/Development_Deployment_Timeline_Analysis.md) - Resource Requirements for the project
+
 
 ### Supporting Documentation
-- `Fact_Check_Report.md` - Source verification of all major claims
-- `Organizational_Scope_Impact_Analysis.md` - Comparison of assumptions vs. reality
-- `Corrections_Summary.md` - Summary of critical fixes applied
+- [Fact_Check_Report.md](https://michaelnguyen-creative.github.io/LLMEnterpriseAdoptionResearch/Fact_Check_Report.md) - Source verification of all major claims
+- [Organizational_Scope_Impact_Analysis.md](https://michaelnguyen-creative.github.io/LLMEnterpriseAdoptionResearch/Organizational_Scope_Impact_Analysis.md) - Comparison of assumptions vs. reality
+- [Corrections_Summary.md](https://michaelnguyen-creative.github.io/LLMEnterpriseAdoptionResearch/Corrections_Summary.md) - Summary of critical fixes applied
 
 ### Historical Documents
-- `Enterprise_IDP_Framework_Final.md` - Earlier version before organizational analysis
+- [Enterprise_IDP_Framework_Final.md](https://michaelnguyen-creative.github.io/LLMEnterpriseAdoptionResearch/Enterprise_IDP_Framework_Final.md) - Earlier version before organizational analysis
 - Various iteration files showing research evolution
 
 ## Methodology
