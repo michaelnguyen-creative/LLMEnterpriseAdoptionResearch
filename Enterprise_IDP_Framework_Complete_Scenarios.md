@@ -257,13 +257,15 @@ Break-even: Month 36
 ## Financial Projections - Multi-Year Analysis
 
 ### Baseline Scenario (3-Year Projection)
+
 | Year | Technology Cost | Implementation Cost | Labor Savings | Net Benefit | Cumulative |
 |------|----------------|--------------------|--------------| ------------|------------|
 | Year 1 | $30 | $130 | $840 | $680 | $680 |
 | Year 2 | $30 | $0 | $840 | $810 | $1,490 |
 | Year 3 | $30 | $0 | $840 | $810 | $2,300 |
 
-### Extended Realistic Scenario (3-Year Projection)  
+### Extended Realistic Scenario (3-Year Projection) 
+ 
 | Year | Technology Cost | Implementation Cost | Labor Savings | Net Benefit | Cumulative |
 |------|----------------|--------------------|--------------| ------------|------------|
 | Year 1 | $30 | $50,000 | $17,370 | -$32,660 | -$32,660 |
