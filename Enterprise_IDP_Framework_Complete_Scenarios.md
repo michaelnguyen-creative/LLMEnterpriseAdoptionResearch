@@ -166,6 +166,7 @@ Break-even: Month 36
 ## Risk Assessment by Scenario
 
 ### Baseline Scenario Risks
+
 | Risk | Probability | Impact | Mitigation |
 |------|-------------|--------|------------|
 | **Low Adoption** | Low [27] | Low | Simple training program |
@@ -173,6 +174,7 @@ Break-even: Month 36
 | **Cost Overrun** | Very Low [29] | Very Low | Fixed pricing model |
 
 ### Extended Scenario Risks
+
 | Risk | Conservative | Realistic | High Impact | Primary Mitigation |
 |------|-------------|-----------|-------------|-------------------|
 | **Multi-Dept Coordination** | Medium [30] | High [30] | Very High [30] | Dedicated project management [31] |
